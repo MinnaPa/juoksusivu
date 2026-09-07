@@ -1,4 +1,4 @@
-# Juosten pitkin Suomea🏃🇫🇮
+# Juosten pitkin Suomea
 
 Tämä on web-kehittämisen kurssin harjoitustyö. Sivuston tarkoituksena on esitellä Suomen kymmenen suurimman kaupungin juoksutapahtumia ja toimia alustana maratonhaasteelle.
 
@@ -9,5 +9,6 @@ Tämä on web-kehittämisen kurssin harjoitustyö. Sivuston tarkoituksena on esi
 Tätä sivustoa tehdään kurssin aikana vaiheittain.
 * **Vaihe 1 (Palautettu):** Alustava suunnitelma, HTML-perusrakenne ja kansiorakenne luotu.
 
-## Käytetyt teknologiat
-* HTML5
+## Täytetyt vaatimukset
+* HTML5 (pohja)
+* 
