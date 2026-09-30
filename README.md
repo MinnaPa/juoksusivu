@@ -8,7 +8,7 @@ Tämä on web-kehittämisen kurssin harjoitustyö. Sivuston tarkoituksena on esi
 ## Projektin tila
 Tätä sivustoa tehdään kurssin aikana vaiheittain.
 * **Vaihe 1 (Palautettu):** Alustava suunnitelma, HTML-perusrakenne ja kansiorakenne luotu.
-
+* **Vaihe 2 (Palautettu): ** CSS määrittely tehty.
 ## Täytetyt vaatimukset
 * HTML5 (pohja)
-* 
+* CSS tiedosto liitetty

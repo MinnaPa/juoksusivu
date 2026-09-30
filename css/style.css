@@ -1,0 +1,105 @@
+/* CSS-muuttujat väreille (Yhtenäinen värimaailma kaikilla sivuilla) */
+:root {
+    --paavari: #1B4332; /* Tummanvihreä, metsä */
+    --taustavari: #F8F9FA; /* Hyvin vaalea harmaa */
+    --tekstivari: #333333; /* Tummanharmaa, luettavampi kuin musta */
+    --korostusvari: #2D6A4F; /* Vähä vaaleampi vihreä korostuksiin */
+    --kortin-tausta: #FFFFFF; /* Valkoinen sisällölle */
+}
+
+/* Perusasetukset ja fontit */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--taustavari);
+    color: var(--tekstivari);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6; /* Riittävä riviväli luettavuuteen (ainakin mun hajataitolle)*/
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--paavari);
+}
+
+/* Yläosa*/
+header {
+    background-color: var(--paavari);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid var(--korostusvari);
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Navigaatio */
+nav {
+    background-color: var(--korostusvari);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none; /* en halua palloja */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Pääsisältöalue */
+main {
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 0 20px;
+}
+
+/* Sisältökortti */
+.sisalto-kortti {
+    background-color: var(--kortin-tausta);
+    padding: 30px; /* Sisämarginaali */
+    margin-bottom: 20px; /* Ulkomarginaali */
+    border: 1px solid #E0E0E0; /* Reunukset */
+    border-radius: 8px; /* Pyöristetyt kulmat */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Varjo, niin ei näytä ysäriltä :D */
+}
+
+.sisalto-kortti h2 {
+    margin-top: 0;
+}
+
+/* Alaosa */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666666;
+    border-top: 1px solid #E0E0E0;
+    margin-top: 40px;
+}
