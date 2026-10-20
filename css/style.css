@@ -103,3 +103,38 @@ footer {
     border-top: 1px solid #E0E0E0;
     margin-top: 40px;
 }
+
+/* Pääasiallinen layout-ratkaisu: GRID */
+.kaupunki-grid {
+    display: grid;
+    /* Tämä taikarivi tekee gridistä responsiivisen: 
+       Se sovittaa vierekkäin niin monta vähintään 200px leveää korttia kuin mahtuu. */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Väli korttien välillä */
+    padding: 20px 0;
+}
+
+/* Korttien tyylittely */
+.kaupunki-kortti {
+    background-color: var(--kortin-tausta);
+    border: 2px solid var(--paavari);
+    border-radius: 12px; /* Pyöristetyt kulmat */
+    padding: 15px;
+    text-align: center;
+    text-decoration: none; /* Poistaa linkin alleviivauksen */
+    color: var(--tekstivari);
+    transition: transform 0.3s ease; /* Pehmeä animaatio */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Hover-efekti: Kortti nousee hieman, kun hiiri viedään päälle */
+.kaupunki-kortti:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.kaupunki-kortti img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
