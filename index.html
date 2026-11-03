@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <!-- Ulkoinen CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃‍♀️</text></svg>">
 </head>
 <body>
     
@@ -30,35 +31,46 @@
     <main>
         <section class="sisalto-kortti">
             <h2>Maratonhaaste: Juoksu Suomessa</h2>
-            <p>Sivuston tarkoituksena on esitellä Suomen juoksukulttuuria ja 
-        Suomen kymmenen suurimman kaupungin juoksutapahtumia. Pääteemana on maratonhaaste, eli maraton jokaisessa kaupungissa. </p>
+            <p>Sivuston tarkoituksena on esitellä Suomen juoksukulttuuria ja Suomen kymmenen suurimman kaupungin juoksutapahtumia. Pääteemana on maratonhaaste, eli maraton jokaisessa kaupungissa.</p>
         </section>
         
         <section class="tilanne-osio">
-            <h2 style="text-align: center; margin-top: 40px;">Haasteen tilanne: 3/10 suoritettu</h2>
-            <p style="text-align: center;">Nämä maratonit on jo selätetty!</p>
+            <h2>Haasteen tilanne: 3/10 suoritettu</h2>
+            <p>Nämä maratonit on jo juostu!</p>
 
             <div class="strava-grid">
                 <div class="strava-kortti">
-                    <img src="images/hki.png" alt="Strava-kartta 1. maratonista">
+                    <img src="images/hki.jpg" alt="Strava-kartta 1. maratonista Helsingissä" width="300" height="300">
                     <h3>1. Maraton Helsingissä</h3>
                     <p>4h52min</p>
                 </div>
                 
                 <div class="strava-kortti">
-                    <img src="images/terwa.png" alt="Strava-kartta 2. maratonista">
+                    <img src="images/terwa.jpg" alt="Strava-kartta 2. maratonista Oulussa" width="300" height="300">
                     <h3>2. Maraton Oulussa</h3>
                     <p>4h34min</p>
                 </div>
                 
                 <div class="strava-kortti">
-                    <img src="images/ranta.png" alt="Strava-kartta 3. maratonista">
+                    <img src="images/ranta.jpg" alt="Strava-kartta 3. maratonista Espoossa" width="300" height="300">
                     <h3>3. Maraton Espoossa</h3>
                     <p>4h26min</p>
                 </div>
             </div>
         </section>
+
+        <section class="video-container">
+    <h2>Juokseminen kaikissa olosuhteissa</h2>
+    <p>Kestävyysjuoksua harrastaessa juostaan säällä kuin säällä.</p>
+    
+    <video controls width="100%" style="max-width: 560px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <source src="images/juoksuvideo.mp4" type="video/mp4">
+        Selaimesi ei tue videon toistoa.
+    </video>
+</section>
     </main>
+
+    <a href="#" class="takaisin-ylos">&uarr; Juokse ylös</a>
 
     <footer>
         <p>© 2026 Juosten pitkin Suomea</p>

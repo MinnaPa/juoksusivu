@@ -13,6 +13,11 @@ Tätä sivustoa tehdään kurssin aikana vaiheittain.
   Semanttinen HTML-rakenne. Yhtenäinen visuaalinen ilme, väriteema ja typografia (Google Fonts) toteutettu ulkoisella CSS-tiedostolla.
 * **Vaihe 3 (Suoritettu):** 
   Sivuston laajennus kolmeen sivuun (Etusivu, Kaupungit, Tapahtumat) toimivalla navigaatiolla. Pääasiallisena layout-ratkaisuna CSS Grid (kaupunkikortit ja Strava-tulokset) sekä tukevana ratkaisuna CSS Flexbox (navigaatio). Sisältöalueiden muotoilu korteiksi.
+* **Vaihe 4 (Suoritettu):** 
+  Sivuston latausnopeuden ja asettelun vakauttaminen kuvien `width`- ja `height`-attribuuteilla.
+  Oman HTML5-videon (`<video>`) integrointi.
+  Käytettävyyden parantaminen `position: fixed` -ominaisuudella toteutetulla "Juokse ylös" -painikkeella.
+  Koodin rakenteellinen siistiminen ja modernin SVG-pohjaisen faviconin (🏃‍♀️) lisäys.
 ## Täytetyt vaatimukset
 * **HTML5** (Semanttiset elementit: header, nav, main, section, footer)
 * **CSS3** (Grid, Flexbox, Box Model, pseudoluokat)
