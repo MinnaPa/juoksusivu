@@ -121,6 +121,65 @@
 
     <a href="https://www.porinkuntoilijat.fi/yyterimaraton" target="_blank" class="nappi-linkki">Siirry tapahtuman virallisille sivuille</a>
 </section>
+
+<form class="vinkki-lomake" action="#" method="post">
+    <fieldset>
+        <legend>Lähetä reittivinkki tai liity haasteeseen</legend>
+
+        <div class="lomake-rivi">
+            <label for="juoksijan-nimi">Nimi tai nimimerkki</label>
+            <input type="text" id="juoksijan-nimi" name="juoksijan_nimi" required minlength="2" placeholder="Esim. Juoksija123">
+        </div>
+
+        <div class="lomake-rivi">
+            <label for="juoksijan-sposti">Sähköposti</label>
+            <input type="email" id="juoksijan-sposti" name="juoksijan_sposti" required placeholder="nimi@esimerkki.fi">
+        </div>
+
+        <div class="lomake-rivi">
+            <label for="kohdekaupunki">Kaupunki</label>
+            <select id="kohdekaupunki" name="kohdekaupunki" required>
+                <option value="">Valitse kaupunki</option>
+                <option value="helsinki">Helsinki</option>
+                <option value="espoo">Espoo</option>
+                <option value="tampere">Tampere</option>
+                <option value="vantaa">Vantaa</option>
+                <option value="oulu">Oulu</option>
+                <option value="turku">Turku</option>
+                <option value="jyvaskyla">Jyväskylä</option>
+                <option value="kuopio">Kuopio</option>
+                <option value="lahti">Lahti</option>
+                <option value="pori">Pori</option>
+            </select>
+        </div>
+
+        <div class="lomake-rivi">
+            <span class="lomake-otsikko">Kiinnostuksen kohde</span>
+            <label>
+                <input type="radio" name="kiinnostus" value="reittivinkki" required>
+                Reitti- tai huoltovinkki
+            </label>
+            <label>
+                <input type="radio" name="kiinnostus" value="yhteislenkki">
+                Yhteislenkki / sama tapahtuma
+            </label>
+        </div>
+
+        <div class="lomake-rivi">
+            <label for="viesti-sisalto">Viesti tai vinkki</label>
+            <textarea id="viesti-sisalto" name="viesti_sisalto" rows="4" required minlength="10" placeholder="Kerro vinkkisi reitistä, korkeuseroista tai omasta tavoitteestasi..."></textarea>
+        </div>
+
+        <div class="lomake-rivi">
+            <label>
+                <input type="checkbox" name="vahvistus" required>
+                Vahvistan, että viestini on asiallinen ja liittyy juoksuun.
+            </label>
+        </div>
+
+        <button type="submit" class="nappi-linkki">Lähetä vinkki</button>
+    </fieldset>
+</form>
 </main>
 <a href="#" class="takaisin-ylos">&uarr; Juokse ylös</a>
     <footer>

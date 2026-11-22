@@ -219,13 +219,8 @@ footer {
 }
 
 /* Video-osion tyylit */
-.video-container {
-    margin: 40px 0;
-    text-align: center;
-}
-
-.video-container iframe {
-    max-width: 100%;
+.video-container video {
+    max-width: 560px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -248,4 +243,78 @@ footer {
 
 .takaisin-ylos:hover {
     background-color: var(--korostusvari);
+}
+
+/* Haasteen tilanne -taulukko */
+.haaste-taulukko {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: var(--kortin-tausta);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.haaste-taulukko caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--paavari);
+}
+
+.haaste-taulukko th,
+.haaste-taulukko td {
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.haaste-taulukko thead th {
+    background-color: var(--paavari);
+    color: #FFFFFF;
+}
+
+/* Lomake-osion tyylit */
+.vinkki-lomake fieldset {
+    background-color: var(--kortin-tausta);
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.vinkki-lomake legend {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--paavari);
+    padding: 0 8px;
+}
+
+.lomake-rivi {
+    margin-bottom: 16px;
+}
+
+.lomake-rivi > label:first-child,
+.lomake-otsikko {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.vinkki-lomake input[type="text"],
+.vinkki-lomake input[type="email"],
+.vinkki-lomake select,
+.vinkki-lomake textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.vinkki-lomake input:valid,
+.vinkki-lomake select:valid,
+.vinkki-lomake textarea:valid {
+    border-color: var(--korostusvari);
 }

@@ -18,6 +18,8 @@ Tätä sivustoa tehdään kurssin aikana vaiheittain.
   Oman HTML5-videon (`<video>`) integrointi.
   Käytettävyyden parantaminen `position: fixed` -ominaisuudella toteutetulla "Juokse ylös" -painikkeella.
   Koodin rakenteellinen siistiminen ja modernin SVG-pohjaisen faviconin (🏃‍♀️) lisäys.
+* **Vaihe 5 (suoritettu):**
+  Lisätty taulukko etusivulle ja lomake tapahtumat sivulle. Muotoiltu nämä CSS. Lisätty videolle vielä korvaava kuvailuteksti.
 ## Täytetyt vaatimukset
 * **HTML5** (Semanttiset elementit: header, nav, main, section, footer)
 * **CSS3** (Grid, Flexbox, Box Model, pseudoluokat)
