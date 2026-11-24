@@ -318,3 +318,44 @@ footer {
 .vinkki-lomake textarea:valid {
     border-color: var(--korostusvari);
 }
+/* Tablettinäkymä */
+@media (max-width: 900px) {
+    main {
+        padding: 0 16px;
+        margin: 24px auto;
+    }
+
+    .takaisin-ylos {
+        bottom: 16px;
+        right: 16px;
+        padding: 10px 14px;
+    }
+}
+
+/* Mobiilinäkymä */
+@media (max-width: 600px) {
+    header {
+        padding: 28px 15px;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sisalto-kortti,
+    .tapahtuma-kortti,
+    .vinkki-lomake fieldset {
+        padding: 18px;
+    }
+
+    .haaste-taulukko th,
+    .haaste-taulukko td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+}
