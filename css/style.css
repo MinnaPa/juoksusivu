@@ -220,7 +220,9 @@ footer {
 
 /* Video-osion tyylit */
 .video-container video {
+    width: 100%;
     max-width: 560px;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
